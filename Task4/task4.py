@@ -3,7 +3,6 @@ import random
 
 from scipy import special, integrate
 
-
 def fi_integral(x1, x2):
     return integrate.quad(lambda x: math.e ** (-x**2/2), x1, x2)[0] / math.sqrt(2 * math.pi)
 
